@@ -47,7 +47,7 @@ While transformers are the way to go, I start with LSTMs, applying what I know n
 working model. I do plan on implementing transformers in the future.
 
 # 3. Data Cleaning
-[Data Cleaning Notebook](https://github.com/leekahung/chatbot/blob/main/notebooks/movie_dialogues_cleaning.ipynb)
+ * [Data Cleaning Notebook](https://github.com/leekahung/chatbot/blob/main/notebooks/movie_dialogues_cleaning.ipynb)
 
 In order for me to implement the Seq2Seq model above using LSTMs, I would first have to clean and process the  
 data from the Cornell Movie Dialogs Corpus. The desirable format for the Seq2Seq is to separate dialogues into  
@@ -70,7 +70,7 @@ and "they will"). Texts with more than roughly 3 times the standard deviation of
 from our dataset to prevent rambling as our end goal are conversations.
 
 # 4. Exploratory Data Analysis (EDA)
-[EDA Notebook](https://github.com/leekahung/chatbot/blob/main/notebooks/movie_dialogue_pairs_eda.ipynb)
+ * [EDA Notebook](https://github.com/leekahung/chatbot/blob/main/notebooks/movie_dialogue_pairs_eda.ipynb)
 
 For our EDA, we've utilized the NLTK library for our natural language processing. Two sets of data were made,  
 one with stop-words and one without stop-words. The distinction was made with the intent that our chatbot  
@@ -78,8 +78,8 @@ doesn't sound to robot-like. Any rows with empty comments of replies post-proces
 have little value for training our chatbot.
 
 # 5. Data Preprocessing and Modeling
-[Data Preprocessing Notebook](https://github.com/leekahung/chatbot/blob/main/notebooks/movie_dialogues_preprocessing.ipynb)
-[Data Modeling Notebook](https://github.com/leekahung/chatbot/blob/main/notebooks/movie_dialogues_modeling.ipynb)
+ * [Data Preprocessing Notebook](https://github.com/leekahung/chatbot/blob/main/notebooks/movie_dialogues_preprocessing.ipynb)
+ * [Data Modeling Notebook](https://github.com/leekahung/chatbot/blob/main/notebooks/movie_dialogues_modeling.ipynb)
 
 The original intent for this Capstone was to use the full corpus for training, validating, and testing our  
 chatbot. However, it soon became apparent, that it would not be possible. While we have a decently sized  
