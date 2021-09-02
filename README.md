@@ -111,3 +111,7 @@ be tested using this dataset.
 
 # Original Roadmap
 [Proposed roadmap](https://docs.google.com/document/d/1Opvs5nyCXC_f0TujGuuRu_xIB5joNCbSddMkL91Rgfk/edit)
+
+# Credit
+Special thanks to my mentor Ricardo Alanís for his continued support and mentorship. The advice given had  
+always been helpful during my journey into Data Science and AI.
