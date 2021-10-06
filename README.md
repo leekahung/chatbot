@@ -38,10 +38,9 @@ sequences.
 A newer approach utilizes Transformers as opposed to RNNs. Transformers are specifically designed to handle  
 sequential input data, such as natural language. However, unlike RNNs, transformers does not process the  
 data in sequential order, allowing for parallization, which reduces training times. Transformers are the  
-model of choice for NLP problems, most famous for its development of BERT (Bidirectional Encoder Representations  
-from Transformers) and GPT (Generative Pre-trained Transformer).
+model of choice for NLP problems, most famous for its development of BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer). Image below courtesy of Google AI blog.  
 
-![Image of BERT and GPT-2](https://lh4.googleusercontent.com/PtV2hzpn2OqLONB3JxvbzLjJz6GURCVM7xqUJ9I4hgCZUof5ci11FUthQVo9bzbpJU3aivGYQ9jQ3Wj2KF4vQt9pVQzbVtpO058KaSc_39ztS7y0QSnPPwSYPessubzsRNTHGeJq)
+![Image of BERT and GPT](https://blog.floydhub.com/content/images/2020/02/bert-vs-gpt-1.png)
 
 While transformers are the way to go, I start with LSTMs, applying what I know now at this moment into a  
 working model. I do plan on implementing transformers in the future.
