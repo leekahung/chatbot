@@ -39,7 +39,8 @@ A newer approach utilizes Transformers as opposed to RNNs. Transformers are spec
 sequential input data, such as natural language. However, unlike RNNs, transformers does not process the  
 data in sequential order, allowing for parallization, which reduces training times. Transformers are the  
 model of choice for NLP problems, most famous for its development of BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer). Image below courtesy of Google AI blog.  
-[Google AI Blog](https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html)
+
+ * [Google AI Blog](https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html)
 
 ![Image of BERT and GPT](https://blog.floydhub.com/content/images/2020/02/bert-vs-gpt-1.png)
 
